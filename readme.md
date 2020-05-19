@@ -16,5 +16,5 @@ Microsoft Build 2020 Live stream
 
 Tune in :point_right: twitch.tv/MicrosoftDeveloper
 
-Tues 19 May 10.30pm-1.15am PT
+Tues 19 May 10.30pm-1.15am PT  
 Thurs 21 May 2.30-4.30am PT
