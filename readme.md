@@ -12,6 +12,8 @@ Mish is part of the Developer Relations team at GitHub. We engage with the commu
 
 Microsoft Build 2020 Live stream
 
+![GitHub Like a Boss](https://pbs.twimg.com/media/EYV_zZqUEAEChuo?format=jpg&name=large)
+
 Tune in :point_right: twitch.tv/MicrosoftDeveloper
 
 Tues 19 May 10.30pm-1.15am PT
