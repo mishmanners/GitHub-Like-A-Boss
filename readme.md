@@ -4,6 +4,10 @@ Open repo for all things GitHub demos. The first demo will be held during Micros
 
 Learn and share lots of tips and tricks, plus dig into the latest GitHub feature announcements.
 
+#### Talk abstract
+
+Join @MishManners from GitHub to share all your tips and tricks, Mish will be throwing in some of her own personal favourites and dig into the latest feature announcements.
+
 ### About Mish ###
 
 Mish is part of the Developer Relations team at GitHub. We engage with the community, share ideas, and highlight awesome stories. So we're in the perfect place to show off demos. Come and learn and share with us.
