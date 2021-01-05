@@ -4,6 +4,8 @@ Open repo for all things GitHub demos. The first demo will be held during Micros
 
 Learn and share lots of tips and tricks, plus dig into the latest GitHub feature announcements.
 
+This repo is often used to show off new features on [Mish's Twitch streams](https://twitch.tv/MishManners), or [GitHub's Open Source Friday streams](https://twitch.tv/GitHub). Follow both channels to stay up to date and jump in on the Discussions if you want to engage with us.
+
 #### Talk abstract
 
 Join @MishManners from GitHub to share all your tips and tricks, Mish will be throwing in some of her own personal favourites and dig into the latest feature announcements.
