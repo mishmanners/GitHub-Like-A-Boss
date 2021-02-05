@@ -1,4 +1,4 @@
-// FizzBuzz, called the constant donut... find me on my Twitch channel (MishManners) to find out why its called a doughtnut!
+# FizzBuzz, called the constant donut find me on my Twitch channel (MishManners) to find out why its called a doughtnut!
 
 const donut = Number(process.argv[2])
 
