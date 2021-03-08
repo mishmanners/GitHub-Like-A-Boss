@@ -1,0 +1,121 @@
+name: Deploy Site
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+      
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup node 12
+      uses: actions/setup-node@v2-beta
+      with:
+        node-version: '12.x'
+
+    - name: Cache node modules
+      id: cache-node
+      uses: actions/cache@v2
+      with:
+        path: node_modules
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+    - name: Install dependencies
+      if: steps.cache-node.outputs.cache-hit != 'true'
+      run: |
+        npm install --silent
+    - name: Build site
+      run:  npm run build
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v1
+
+
+    - name: Login to Container Registry
+      uses: docker/login-action@v1 
+      with:
+        registry: ${{ secrets.AZURE_REGISTRY_NAME }}
+        username: ${{secrets.AZURE_REGISTRY_USER}}
+        password: ${{secrets.AZURE_REGISTRY_PASS}}
+
+    - name: Build and push
+      uses: docker/build-push-action@v2
+      with:
+        context: .
+        file: ./Dockerfile
+        push: true
+        tags: ${{ secrets.AZURE_REGISTRY_NAME }}/popular-repos:${{ github.event.pull_request.head.sha || github.sha }}
+        cache-from: type=registry,ref=${{ secrets.AZURE_REGISTRY_NAME }}/popular-repos:latest
+        cache-to: type=inline
+
+  deploy_to_review:
+    name: Deploy Review
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    environment: 
+      name: review-lab
+      url: ${{ steps.popular-repos-web.outputs.webapp-url }}
+    needs: build
+    steps:
+    - name: Azure login
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_SUBSCRIPTION_SECRET }}
+
+    - name: Create deployment slot
+      run: |
+        az webapp deployment slot create --name popular-repos --resource-group pied-piper-inc --slot review-pr-${{ github.event.number }} --configuration-source popular-repos
+    - name: Deploy popular repos
+      uses: azure/webapps-deploy@v2
+      id: popular-repos-web
+      with:
+        app-name: 'popular-repos'
+        images: '${{ secrets.AZURE_REGISTRY_NAME }}/popular-repos:${{ github.event.pull_request.head.sha }}'
+        slot-name: review-pr-${{ github.event.number }}
+
+  deploy_to_staging:
+    name: Deploy Staging
+    if: github.event.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: 
+      name: staging
+      url: ${{ steps.popular-repos-web.outputs.webapp-url }}
+    needs: build
+    steps:
+    - name: Azure login
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_SUBSCRIPTION_SECRET }}
+
+    - name: Deploy popular repos
+      uses: azure/webapps-deploy@v2
+      id: popular-repos-web
+      with:
+        app-name: 'popular-repos'
+        images: '${{ secrets.AZURE_REGISTRY_NAME }}/popular-repos:${{ github.sha }}'
+        slot-name: staging
+
+  deploy_to_production:
+    name: Deploy Production
+    if: github.event.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: 
+      name: production
+      url: https://popular-repos.azurewebsites.net
+    needs: deploy_to_staging
+    steps:
+    - name: Azure login
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_SUBSCRIPTION_SECRET }}
+
+    - name: Swap staging to production
+      run: |
+        az webapp deployment slot swap --name popular-repos --resource-group pied-piper-inc --slot staging --target-slot production
