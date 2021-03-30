@@ -70,7 +70,7 @@ NOTE: the summary will flyout at the end of your issue/comment/PR. Ie. if you ha
 
 <details>
 Lots of words can appear here.
-<summary>Click here to see an example
+<summary>Click here to see an example (scroll to the bottom on the readme.md file)
 
 
 If you don't want this to happen, close your summary tag and everything will be shown directly below your summary line. Don't forget to close your "details" tag as well.
