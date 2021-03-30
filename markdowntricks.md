@@ -102,3 +102,13 @@ _NOTE: this is no longer a feature. Hex colour codes will appear as code, but wi
 We should definitely use Crimson: `#DC143C` as our logo colour.
 
 Here are the colours used in the GitHub contribution graphs: `#C6E48B` `#7AC96F` `#249A3C` `#196127`
+
+## Centre text and images in markdown
+
+In order to center text and images in markdown, you'll need to wrap it in a div container.
+
+**Example**
+
+<div align="center">
+![](https://octodex.github.com/images/inflatocat.png)
+</div>
