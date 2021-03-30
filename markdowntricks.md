@@ -61,13 +61,17 @@ Example:
 [quote]UNIQUE_ID: Vaf3en8AAQEAAAtoQlAAAAAA[/quote]
 
 The identifier is constructed from a 32-bit IP address, 32-bit process ID, 32-bit timestamp coupled to a 16-bit counter for tighter resolution than a single-second, 32-bit thread index. The timestamp component is UTC to prevent issues with daylight saving time adjustments. The application handler should treat the identifier as an opaque token only and not dissected into constituents.
-<summary>Click here to see the error log
+<summary>Click here to see the error log</summary>
 
 Now your issue/PR is all nice and tidy.
 
-NOTE: the summary will flyout at the end of your issue/comment/PR. Ie. if you have other text below this, your summary and details tag will be expanded below this. Give it a try by clicking on "Click here to see the error log".
+NOTE: the summary will flyout at the end of your issue/comment/PR. Ie. if you have other text below this, your summary and details tag will be expanded below this. Give it a try by clicking on here:
 
+<details>
+Lots of words can appear here.
+<summary>Click here to see an example
 
+If you don't want this to happen, close your summary tag and everything will be shown directly below your summary line.
 
 ## Diff viewer
 
