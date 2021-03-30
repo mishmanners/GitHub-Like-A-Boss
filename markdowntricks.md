@@ -65,5 +65,19 @@ The identifier is constructed from a 32-bit IP address, 32-bit process ID, 32-bi
 
 Now your issue/PR is all nice and tidy.
 
+## Diff viewer
 
+We recently showed you how to view [differences in 3D images](https://twitter.com/github/status/1366523816541904897). You can also use backticks to view diff in markdown.
+
+Negative (-) will show in red, Positive (+) will show in green.
+
+**Example**
+
+````diff
+MISH's Live stream
+- lots of people came today
++ lots more people came today!
+````
+
+Now you can quickly show differences in code.
 
