@@ -60,7 +60,7 @@ Example:
 
 [quote]UNIQUE_ID: Vaf3en8AAQEAAAtoQlAAAAAA[/quote]
 
-The identifier is constructed from a 32-bit IP address, 32-bit process ID, 32-bit timestamp coupled to a 16-bit counter for tighter resolution than a single-second, 32-bit thread index. The timestamp component is UTC to prevent issues with daylight saving time adjustments. The application handler should treat the identifier as an opaque token only and not dissected into constituents.
+The identifier is constructed from a 32-bit IP address, 32-bit process ID, 32-bit timestamp coupled to a 16-bit counter for tighter resolution than a single-second, 32-bit thread index. The timestamp component is UTC to prevent issues with daylight saving time adjustments. The application handler should treat the identifier as an opaque token only and not dissected into constituents.</details>
 <summary>Click here to see the error log</summary>
 
 Now your issue/PR is all nice and tidy.
