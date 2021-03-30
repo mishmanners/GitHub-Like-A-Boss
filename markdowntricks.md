@@ -110,5 +110,5 @@ In order to center text and images in markdown, you'll need to wrap it in a div 
 **Example**
 
 <div align="center">
-![](https://octodex.github.com/images/inflatocat.png)
+<img src="https://octodex.github.com/images/inflatocat.png" width="200">
 </div>
