@@ -66,14 +66,7 @@ The identifier is constructed from a 32-bit IP address, 32-bit process ID, 32-bi
 
 Now your issue/PR is all nice and tidy.
 
-NOTE: the summary will flyout at the end of your issue/comment/PR. Ie. if you have other text below this, your summary and details tag will be expanded below this. Give it a try by clicking on here:
-
-<details>
-Lots of words can appear here.
-<summary>Click here to see an example (scroll to the bottom on the readme.md file)
-
-
-If you don't want this to happen, close your summary tag and everything will be shown directly below your summary line. Don't forget to close your "details" tag as well.
+Don't forget to close your summary tag so everything is shown directly below your summary line. Also close your "details" tag too. Otherwise everything written below will be considered "details" and will be collapsed.
 
 ## Diff viewer
 
