@@ -112,3 +112,10 @@ In order to center text and images in markdown, you'll need to wrap it in a div 
 <div align="center">
 <img src="https://octodex.github.com/images/inflatocat.png" width="200">
 </div>
+
+You can also include text and images as centered objects:
+
+<div align="center">
+<img src="https://octodex.github.com/images/octotron.jpg" width="200">
+<p>How cool is this Troncat, called "Octotron"</p>
+</div>
