@@ -88,7 +88,7 @@ Now you can quickly show differences in code.
 
 You can also show hex colour codes in markdown. Use backticks to enter the colour code, and a coloured tile will appear.
 
-_NOTE: this ONLY works in comments. In readme.md fils, Hex colour codes will appear as code, but will not have a coloured tile to accompany them._
+_NOTE: this ONLY works in comments. In readme.md files, Hex colour codes will appear as code, but will not have a coloured tile to accompany them._
 
 **Example**
 
