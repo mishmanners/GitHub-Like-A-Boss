@@ -137,6 +137,8 @@ And another example with all elements justified left. You can see here we don't 
 
 You can also add images directly into markdown, by dragging and dropping from any website. You can also use ! and [] to directly add an image instead of using the "source" tags.
 
+_Note, this will show your image as full screen._
+
 **Example:**
 
 ![](https://octodex.github.com/images/dojocat.jpg)
