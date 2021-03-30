@@ -100,7 +100,7 @@ Here are the colours used in the GitHub contribution graphs: `#C6E48B` `#7AC96F`
 
 In order to center text and images in markdown, you'll need to wrap it in a div container.
 
-**Example**
+**Examples**
 
 <div align="center">
 <img src="https://octodex.github.com/images/inflatocat.png" width="200">
@@ -111,4 +111,17 @@ You can also include text and images as centered objects:
 <div align="center">
 <img src="https://octodex.github.com/images/octotron.jpg" width="200">
 <p>How cool is this Troncat, called "Octotron"</p>
+</div>
+
+## Different sized text
+
+Sometimes you want to change the size of your text. For example, you might want to add a caption to an image, and you might want this text to be smaller than the rest.
+
+Wrap your text in "sup" or "sub" tags to make it smaller. This is used instead of using the "p" tag above.
+
+**Examples**
+
+<div align="center">
+<img src="https://octodex.github.com/images/spidertocat.png" width="200">
+<sup><strong>Img 1.</strong>Isn't our Spidertocat just awesome?</sup>
 </div>
