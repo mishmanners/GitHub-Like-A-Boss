@@ -65,6 +65,10 @@ The identifier is constructed from a 32-bit IP address, 32-bit process ID, 32-bi
 
 Now your issue/PR is all nice and tidy.
 
+NOTE: the summary will flyout at the end of your issue/comment/PR. Ie. if you have other text below this, your summary and details tag will be expanded below this. Give it a try by clicking on "Click here to see the error log".
+
+
+
 ## Diff viewer
 
 We recently showed you how to view [differences in 3D images](https://twitter.com/github/status/1366523816541904897). You can also use backticks to view diff in markdown.
