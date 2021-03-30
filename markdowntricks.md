@@ -123,5 +123,10 @@ Wrap your text in "sup" or "sub" tags to make it smaller. This is used instead o
 
 <div align="center">
 <img src="https://octodex.github.com/images/spidertocat.png" width="200">
-<sup><strong>Img 1.</strong>Isn't our Spidertocat just awesome?</sup>
+<sup><strong>Img 1.</strong> Isn't our Spidertocat just awesome?</sup>
 </div>
+
+And another example with all elements justified left. You can see here we don't necessarily need to wrap everything in a div container (only do this if you want to specify the alignment):
+
+<img src="https://octodex.github.com/images/kimonotocat.png" width="200">
+<sup><strong>Img 2.</strong> Kimonotocat, straight out of Japan!</sup>
