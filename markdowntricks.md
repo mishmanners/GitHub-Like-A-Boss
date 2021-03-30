@@ -132,3 +132,15 @@ And another example with all elements justified left. You can see here we don't 
 <img src="https://octodex.github.com/images/kimonotocat.png" width="200">
 <p>
 <sup><strong>Img 2.</strong> Kimonotocat, straight out of Japan!</sup></p>
+
+## Images to markdown
+
+You can also add images directly into markdown, by dragging and dropping from any website. You can also use ! and [] to directly add an image instead of using the "source" tags.
+
+**Example:**
+
+![](https://octodex.github.com/images/dojocat.jpg)
+
+Give it a try today.
+
+Side note, check out all our awesome octocats on our [Octodex](https://octodex.github.com/).
