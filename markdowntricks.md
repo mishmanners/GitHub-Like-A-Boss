@@ -95,6 +95,8 @@ Now you can quickly show differences in code.
 
 You can also show hex colour codes in markdown. Use backticks to enter the colour code, and a coloured tile will appear.
 
+_NOTE: this is no longer a feature. Hex colour codes will appear as code, but will no longer have a coloured tile to accompany them._
+
 **Example**
 
 We should definitely use Crimson: `#DC143C` as our logo colour.
