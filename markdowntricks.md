@@ -10,3 +10,8 @@ Use the "kbd" tag and any text you wrap in this tag will look like a button. Not
 
 **Examples**
 
+<kbd>Boss</kbd>
+
+Press the <kbd>ESC</kbd> key to exit out of the window.
+
+Another great keyboard shortcut is quickly navigating to your issues by typing <kbd>g</kbd><kbd>i</kbd> on your keyboard when you are in a repository.
