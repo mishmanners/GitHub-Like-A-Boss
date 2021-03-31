@@ -94,3 +94,53 @@ We should definitely use Crimson: `#DC143C` as our logo colour.
 
 Here are the colours used in the GitHub contribution graphs: `#C6E48B` `#7AC96F` `#249A3C` `#196127`
 
+## Centre text and images in markdown
+
+In order to center text and images in markdown, you'll need to wrap it in a div container.
+
+**Examples**
+
+<div align="center">
+<img src="https://octodex.github.com/images/inflatocat.png" width="200">
+</div>
+
+You can also include text and images as centered objects:
+
+<div align="center">
+<img src="https://octodex.github.com/images/octotron.jpg" width="200">
+<p>How cool is this Troncat, called "Octotron"</p>
+</div>
+
+## Different sized text
+
+Sometimes you want to change the size of your text. For example, you might want to add a caption to an image, and you might want this text to be smaller than the rest.
+
+Wrap your text in "sup" or "sub" tags to make it smaller. This is used instead of using the "p" tag above. Keeping the "p" tag however, will ensure your text goes on a separate line.
+
+**Examples**
+
+<div align="center">
+<img src="https://octodex.github.com/images/spidertocat.png" width="200">
+<p>
+<sup><strong>Img 1.</strong> Isn't our Spidertocat just awesome?</sup></p>
+</div>
+
+And another example with all elements justified left. You can see here we don't necessarily need to wrap everything in a div container (only do this if you want to specify the alignment):
+
+<img src="https://octodex.github.com/images/kimonotocat.png" width="200">
+<p>
+<sup><strong>Img 2.</strong> Kimonotocat, straight out of Japan!</sup></p>
+
+## Images to markdown
+
+You can also add images directly into markdown, by dragging and dropping from any website. You can also use ! and [] to directly add an image instead of using the "source" tags.
+
+_Note, this will show your image as full screen._
+
+**Example:**
+
+![](https://octodex.github.com/images/dojocat.jpg)
+
+Give it a try today.
+
+Side note, check out all our awesome octocats on our [Octodex](https://octodex.github.com/).
