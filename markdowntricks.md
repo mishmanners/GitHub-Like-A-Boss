@@ -65,3 +65,32 @@ The identifier is constructed from a 32-bit IP address, 32-bit process ID, 32-bi
 Now your issue/PR is all nice and tidy.
 
 Don't forget to close your summary tag so everything is shown directly below your summary line. Also close your "details" tag too. Otherwise everything written below will be considered "details" and will be collapsed.
+
+## Diff viewer
+
+We recently showed you how to view [differences in 3D images](https://twitter.com/github/status/1366523816541904897). You can also use backticks to view diff in markdown.
+
+Negative (-) will show in red, Positive (+) will show in green.
+
+**Example**
+
+````diff
+MISH's Live stream
+- lots of people came today
++ lots more people came today!
+````
+
+Now you can quickly show differences in code.
+
+## HEX colour codes
+
+You can also show hex colour codes in markdown. Use backticks to enter the colour code, and a coloured tile will appear.
+
+_NOTE: this ONLY works in comments. In readme.md files, Hex colour codes will appear as code, but will not have a coloured tile to accompany them._
+
+**Example**
+
+We should definitely use Crimson: `#DC143C` as our logo colour.
+
+Here are the colours used in the GitHub contribution graphs: `#C6E48B` `#7AC96F` `#249A3C` `#196127`
+
