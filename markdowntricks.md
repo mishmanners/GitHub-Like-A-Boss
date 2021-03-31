@@ -61,3 +61,7 @@ Example:
 [quote]UNIQUE_ID: Vaf3en8AAQEAAAtoQlAAAAAA[/quote]
 
 The identifier is constructed from a 32-bit IP address, 32-bit process ID, 32-bit timestamp coupled to a 16-bit counter for tighter resolution than a single-second, 32-bit thread index. The timestamp component is UTC to prevent issues with daylight saving time adjustments. The application handler should treat the identifier as an opaque token only and not dissected into constituents.</details>
+
+Now your issue/PR is all nice and tidy.
+
+Don't forget to close your summary tag so everything is shown directly below your summary line. Also close your "details" tag too. Otherwise everything written below will be considered "details" and will be collapsed.
