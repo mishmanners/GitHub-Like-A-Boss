@@ -135,6 +135,8 @@ You can also add images directly into markdown, by dragging and dropping from an
 
 _Note, this will show your image as full screen._
 
+Oh, and this works with video too! 🤯
+
 **Example:**
 
 ![](https://octodex.github.com/images/dojocat.jpg)
