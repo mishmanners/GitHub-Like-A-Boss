@@ -36,6 +36,12 @@ GitHub continuously ships out new features and improvements to help make softwar
 
 ![](https://github.com/MishManners/GitHub-Like-A-Boss-Demos/blob/main/SpeakerIntro.gif)
 
+#### NDC Melbourne
+
+
+
+Tune in :point_right: [NDC Melbourne](https://ndcmelbourne.com/speakers/michelle-mannering)
+
 #### Other scheduled talks
 
 I have also given "GitHub Like a Boss" talks for:
