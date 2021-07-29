@@ -32,6 +32,8 @@ body:
       label: More information
       description: Please add more info on the type of demo you'd like Mish to do.
       render: shell
+    validations:
+      required: true
 
   - type: input
     id: contact
