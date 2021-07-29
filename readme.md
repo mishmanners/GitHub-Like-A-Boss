@@ -4,7 +4,7 @@ Open repo for all things GitHub demos. The first demo will be held during Micros
 
 Learn and share lots of tips and tricks, plus dig into the latest GitHub feature announcements, and sometimes even see a demo.
 
-#### Talk abstract
+## Talk abstract
 
 Join @MishManners from GitHub to share all your tips and tricks, Mish will be throwing in some of her own personal favourites and dig into the latest feature announcements.
 
@@ -40,11 +40,11 @@ GitHub continuously ships out new features and improvements to help make softwar
 
 ![NDC Melbourne](https://user-images.githubusercontent.com/36594527/127279693-684d9315-683f-466f-b16f-e40254c0e35f.JPG)
 
-Tune in :point_right: [NDC Melbourne](https://ndcmelbourne.com/speakers/michelle-mannering)
+Tune in :point_right: [NDC Melbourne](https://ndcmelbourne.com/speakers/michelle-mannering). Check out [the recording](https://www.youtube.com/watch?v=KS2gQ_0-zXg&ab_channel=NDCConferences).
 
 Abstract is same as above.
 
-#### Other scheduled talks
+## Other scheduled talks
 
 I have also given "GitHub Like a Boss" talks for:
 - Junior Dev (Hacktoberfest)
