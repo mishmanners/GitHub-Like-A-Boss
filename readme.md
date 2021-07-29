@@ -2,7 +2,7 @@
 
 Open repo for all things GitHub demos. The first demo will be held during Microsoft Build 2020. This will be a fun place for you all to come and engage with me and try out some of the new features - which have all been enabled on this repo.
 
-Learn and share lots of tips and tricks, plus dig into the latest GitHub feature announcements.
+Learn and share lots of tips and tricks, plus dig into the latest GitHub feature announcements, and sometimes even see a demo.
 
 #### Talk abstract
 
