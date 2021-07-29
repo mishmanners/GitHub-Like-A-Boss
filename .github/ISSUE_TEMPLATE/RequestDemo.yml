@@ -27,7 +27,7 @@ body:
       required: true
 
   - type: textarea
-    id: More info
+    id: info
     attributes:
       label: More information
       description: Please add more info on the type of demo you'd like Mish to do.
@@ -43,7 +43,7 @@ body:
       required: false
 
   - type: checkboxes
-    id: Time frame
+    id: timing
     attributes:
       label: Timing
       description: Is this urgent of not?
