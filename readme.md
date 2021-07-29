@@ -44,7 +44,7 @@ Tune in :point_right: [NDC Melbourne](https://ndcmelbourne.com/speakers/michelle
 
 Abstract is same as above.
 
-#### Other scheduled talks
+## Other scheduled talks
 
 I have also given "GitHub Like a Boss" talks for:
 - Junior Dev (Hacktoberfest)
