@@ -1,3 +1,5 @@
+// JavaScript Programming by Magnus Wolffelt and contributors https://play.elevatorsaga.com/
+
 {
     init: function(elevators, floors) {
         var elevator = elevators[0]; // Let's use the first elevator
