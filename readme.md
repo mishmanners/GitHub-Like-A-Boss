@@ -40,7 +40,7 @@ GitHub continuously ships out new features and improvements to help make softwar
 
 ![NDC Melbourne](https://user-images.githubusercontent.com/36594527/127279693-684d9315-683f-466f-b16f-e40254c0e35f.JPG)
 
-Tune in :point_right: [NDC Melbourne](https://ndcmelbourne.com/speakers/michelle-mannering)
+Tune in :point_right: [NDC Melbourne](https://ndcmelbourne.com/speakers/michelle-mannering). Check out [the recording](https://www.youtube.com/watch?v=KS2gQ_0-zXg&ab_channel=NDCConferences).
 
 Abstract is same as above.
 
