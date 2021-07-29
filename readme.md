@@ -20,8 +20,8 @@ Mish is part of the Developer Relations team at GitHub. We engage with the commu
 
 Tune in :point_right: twitch.tv/MicrosoftDeveloper
 
-Tues 19 May 10.30pm-1.15am PT  
-Thurs 21 May 2.30-4.30am PT
+Tues 19 May 10.30pm-1.15am PT.
+Thurs 21 May 2.30-4.30am PT.
 
 #### GitHub Satellite
 
@@ -49,4 +49,3 @@ Abstract is same as above.
 I have also given "GitHub Like a Boss" talks for:
 - Junior Dev (Hacktoberfest)
 - Python Users Meetup (Hacktoberfest)
-
