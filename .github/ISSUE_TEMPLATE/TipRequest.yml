@@ -4,3 +4,10 @@ title: "[Tip]: I want "
 labels: [Tip, enhancement]
 assignees:
   - mishmanners
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for asking Mish for a Tip. Tune into a Live stream of read Mish's articles on DEV for great GitHub tips.
+        
+   
