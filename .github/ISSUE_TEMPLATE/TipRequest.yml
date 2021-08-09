@@ -1,1 +1,6 @@
-
+name: Tip Request
+description: Request a GitHub Tip from MishManners
+title: "[Tip]: I want "
+labels: [Tip, enhancement]
+assignees:
+  - mishmanners
