@@ -9,5 +9,46 @@ body:
     attributes:
       value: |
         Thanks for asking Mish for a Tip. Tune into a Live stream of read Mish's articles on DEV for great GitHub tips.
+  - type: dropdown
+    id: Level
+    attributes:
+      label: What kind of level is this tip?
+      description: What level of developer do you tthink this tip is aimed at?
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+    validations:
+      required: true
+
+  - type: textarea
+    id: info
+    attributes:
+      label: More information
+      description: Please add more info on the type of demo you'd like Mish to do.
+      render: shell
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: location
+    attributes:
+      label: Where do you want this GitHub Tip?
+      description: Where would you like to see this GitHub Tip? You can select more than one.
+      options:
+        - label: Yes it is!
+        - label:
+          required: false
+  
+  
         
    
