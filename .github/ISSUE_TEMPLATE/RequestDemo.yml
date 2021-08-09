@@ -12,7 +12,7 @@ body:
   - type: dropdown
     id: ask
     attributes:
-      label: type
+      label: Type
       description: What kind of demo would you like Mish to do?
       options:
         - Issue forms
