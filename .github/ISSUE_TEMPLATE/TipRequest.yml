@@ -46,7 +46,13 @@ body:
       description: Where would you like to see this GitHub Tip? You can select more than one.
       options:
         - label: Twitch
- 
+          required: false
+        - label: DEV post
+          required: false
+        - label: YouTube video (longer)
+          required: false
+        - label: Twitter video (longer)
+          required: false
   
   
         
