@@ -10,7 +10,7 @@ body:
       value: |
         Thanks for asking Mish for a Tip. Tune into a Live stream of read Mish's articles on DEV for great GitHub tips.
   - type: input
-    id: Name
+    id: Tip
     attributes:
       label: Name of GitHub Tip
       description: What is the name of this GitHub Tip?
