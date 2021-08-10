@@ -51,7 +51,7 @@ body:
           required: false
         - label: YouTube video (longer)
           required: false
-        - label: Twitter video (longer)
+        - label: Twitter video (shorter)
           required: false
 
   
