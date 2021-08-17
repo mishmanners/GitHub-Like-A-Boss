@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for asking Mish for a Tip. Tune into a Live stream of read Mish's articles on DEV for great GitHub tips.
+        Thanks for asking Mish for a Tip. Tune into a Live stream or read Mish's articles on DEV for great GitHub tips.
   - type: input
     id: Tip
     attributes:
