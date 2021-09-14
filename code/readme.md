@@ -1,3 +1,9 @@
 # Code
 
-Code for some of the demos up and coming.
+Code up and coming demos.
+
+Code here for python, and Java.
+
+<!-- Updates -->
+
+More code to be added soon including C# and Ruby.
