@@ -44,6 +44,10 @@ Tune in :point_right: [NDC Melbourne](https://ndcmelbourne.com/speakers/michelle
 
 Abstract is same as above.
 
+### GitKon 2021
+
+![](https://github.com/mishmanners/GitHub-Like-A-Boss/blob/main/GitKon-Speaker-MichelleMannering-OG.jpg)
+
 ## Other scheduled talks
 
 I have also given "GitHub Like a Boss" talks for:
