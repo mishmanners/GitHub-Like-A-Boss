@@ -48,6 +48,8 @@ Abstract is same as above.
 
 ![](https://github.com/mishmanners/GitHub-Like-A-Boss/blob/main/GitKon-Speaker-MichelleMannering-OG.jpg)
 
+Incorporated some GitHub Like a Boss content in my [Git for the Ultimate Team work](https://gitkon.com/sessions/using-git-for-ultimate-teamwork/) given at GitKon 2021.
+
 ## Other scheduled talks
 
 I have also given "GitHub Like a Boss" talks for:
