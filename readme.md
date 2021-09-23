@@ -50,6 +50,9 @@ Abstract is same as above.
 
 Incorporated some GitHub Like a Boss content in my [Git for the Ultimate Team work](https://gitkon.com/sessions/using-git-for-ultimate-teamwork/) given at GitKon 2021.
 
+Abstract:
+How do you work effectively across your entire team? How to get developers and non-developers to work together in a collaborative manner? Git isn’t just for developers. You can use Git to work with everyone in your organization. This will lead to better products and services for your customers. Come and hear about how to use Git and GitHub for the ultimate in teamwork.
+
 ## Other scheduled talks
 
 I have also given "GitHub Like a Boss" talks for:
