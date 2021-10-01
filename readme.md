@@ -48,7 +48,7 @@ Abstract is same as above.
 
 ![](https://github.com/mishmanners/GitHub-Like-A-Boss/blob/main/GitKon-Speaker-MichelleMannering-OG.jpg)
 
-Incorporated some GitHub Like a Boss content in my [Git for the Ultimate Team work](https://gitkon.com/sessions/using-git-for-ultimate-teamwork/) given at GitKon 2021.
+Incorporated some GitHub Like a Boss content in my [Git for the Ultimate Team work](https://gitkon.com/sessions/using-git-for-ultimate-teamwork/) given at GitKon 2021. You can also find a write up of this talk on [DEV](https://dev.to/mishmanners/how-to-make-a-good-git-commit-1ed7).
 
 Abstract:
 How do you work effectively across your entire team? How to get developers and non-developers to work together in a collaborative manner? Git isn’t just for developers. You can use Git to work with everyone in your organization. This will lead to better products and services for your customers. Come and hear about how to use Git and GitHub for the ultimate in teamwork.
