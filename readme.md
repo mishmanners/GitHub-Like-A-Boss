@@ -71,3 +71,10 @@ I have also given "GitHub Like a Boss" talks for:
 - Girl Geek Academy's Microsoft Mondays
 
 You can see all my talks on my website linked on my [GitHub profile](https://github.com/MishManners).
+
+# More GitHub Like a Boss
+
+For more tips and tricks on using GitHub, you can find them in the following places:
+- [Mish's DEV "GitHub Like a Boss" series](https://dev.to/mishmanners/series/13860)
+- [GitHub's Git Good YouTube series](https://www.youtube.com/playlist?list=PL0lo9MOBetEFSaXAspgx6CiezLBY82GTA)
+- [Search "Shorts" on the GitHub YouTube channel](https://www.youtube.com/channel/UC7c3Kb6jYCRj4JOHHZTxKsQ)
