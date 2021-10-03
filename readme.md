@@ -10,6 +10,8 @@ Learn and share lots of tips and tricks, plus dig into the latest GitHub feature
 
 Feel free to add examples to the code folder, use the features here, and make PRs.
 
+This repo is opted into Hacktoberfest, so feel free to make contributions.
+
 ## GitHub Like a Boss Abstract
 
 These are the abstracts used for talks given around this topic/repo.
