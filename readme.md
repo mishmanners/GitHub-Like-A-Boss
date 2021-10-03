@@ -44,7 +44,7 @@ MARCH 27 • 17:30 GMT+11
 Abstract:
 GitHub continuously ships out new features and improvements to help make software development and collaboration easier for developers. In this session, Michelle Mannering from GitHub will show you some of the tips and tricks of how best you can use GitHub, and also walk you through some of the latest feature announcements. Coming out of this session, you can GitHub like a boss!
 
-![](https://github.com/MishManners/GitHub-Like-A-Boss-Demos/blob/main/SpeakerIntro.gif)
+![](https://github.com/mishmanners/GitHub-Like-A-Boss/blob/main/Images/SpeakerIntro.gif)
 
 #### NDC Melbourne
 
