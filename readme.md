@@ -1,10 +1,20 @@
 # GitHub Like a Boss #
 
-Open repo for all things GitHub demos. The first demo will be held during Microsoft Build 2020. This will be a fun place for you all to come and engage with me and try out some of the new features - which have all been enabled on this repo.
+Open repo for all things GitHub demos.
+
+The first demo will be held during Microsoft Build 2020. This will be a fun place for you all to come and engage with me and try out some of the new features - which have all been enabled on this repo.
 
 Learn and share lots of tips and tricks, plus dig into the latest GitHub feature announcements, and sometimes even see a demo.
 
-## Talk abstract
+## Contributing
+
+Feel free to add examples to the code folder, use the features here, and make PRs.
+
+This repo is opted into Hacktoberfest, so feel free to make contributions.
+
+## GitHub Like a Boss Abstract
+
+These are the abstracts used for talks given around this topic/repo.
 
 Join @MishManners from GitHub to share all your tips and tricks, Mish will be throwing in some of her own personal favourites and dig into the latest feature announcements.
 
@@ -16,7 +26,7 @@ Mish is part of the Developer Relations team at GitHub. We engage with the commu
 
 #### Microsoft Build 2020 Live stream
 
-![GitHub Like a Boss](https://pbs.twimg.com/media/EYV_zZqUEAEChuo?format=jpg&name=large)
+[![GitHub Like a Boss](https://pbs.twimg.com/media/EYV_zZqUEAEChuo?format=jpg&name=large)](https://twitch.tv/MicrosoftDeveloper)
 
 Tune in :point_right: [on Twitch](https://twitch.tv/MicrosoftDeveloper).
 
@@ -44,8 +54,18 @@ Tune in :point_right: [NDC Melbourne](https://ndcmelbourne.com/speakers/michelle
 
 Abstract is same as above.
 
+### GitKon 2021
+
+![](https://github.com/mishmanners/GitHub-Like-A-Boss/blob/main/GitKon-Speaker-MichelleMannering-OG.jpg)
+
+Incorporated some GitHub Like a Boss content in my [Git for the Ultimate Team work](https://gitkon.com/sessions/using-git-for-ultimate-teamwork/) given at GitKon 2021. You can also find a write up of this talk on [DEV](https://dev.to/mishmanners/how-to-make-a-good-git-commit-1ed7).
+
+Abstract:
+How do you work effectively across your entire team? How to get developers and non-developers to work together in a collaborative manner? Git isn’t just for developers. You can use Git to work with everyone in your organization. This will lead to better products and services for your customers. Come and hear about how to use Git and GitHub for the ultimate in teamwork.
+
 ## Other scheduled talks
 
 I have also given "GitHub Like a Boss" talks for:
 - Junior Dev (Hacktoberfest)
 - Python Users Meetup (Hacktoberfest)
+- Girl Geek Academy's Microsoft Mondays
