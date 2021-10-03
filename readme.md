@@ -35,7 +35,7 @@ Thurs 21 May 2.30-4.30am PT.
 
 #### GitHub Satellite
 
-![](https://github.com/MishManners/GitHub-Like-A-Boss-Demos/blob/main/Satellite%20India%20Talk.PNG)
+![](https://github.com/mishmanners/GitHub-Like-A-Boss/blob/main/Images/Satellite%20India%20Talk.PNG)
 
 Tune in :point_right: [GitHub Satellite](https://githubsatellite.com/)
 
