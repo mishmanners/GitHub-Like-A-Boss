@@ -66,3 +66,4 @@ How do you work effectively across your entire team? How to get developers and n
 I have also given "GitHub Like a Boss" talks for:
 - Junior Dev (Hacktoberfest)
 - Python Users Meetup (Hacktoberfest)
+- Girl Geek Academy's Microsoft Mondays
