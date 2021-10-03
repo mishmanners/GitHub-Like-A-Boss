@@ -8,7 +8,7 @@ Learn and share lots of tips and tricks, plus dig into the latest GitHub feature
 
 ## Contributing
 
-
+Feel free to add examples to the code folder, use the features here, and make PRs.
 
 ## GitHub Like a Boss Abstract
 
