@@ -8,7 +8,7 @@ Learn and share lots of tips and tricks, plus dig into the latest GitHub feature
 
 ## Contributing
 
-Feel free to add examples to the code folder, use the features here, and make PRs.
+Feel free to add examples to the code folder, use the features here, and make PRs. Various features are enabled such as pages, Discussions, and more.
 
 This repo is opted into Hacktoberfest, so feel free to make contributions.
 
@@ -63,9 +63,11 @@ Incorporated some GitHub Like a Boss content in my [Git for the Ultimate Team wo
 Abstract:
 How do you work effectively across your entire team? How to get developers and non-developers to work together in a collaborative manner? Git isn’t just for developers. You can use Git to work with everyone in your organization. This will lead to better products and services for your customers. Come and hear about how to use Git and GitHub for the ultimate in teamwork.
 
-## Other scheduled talks
+## Other talks
 
 I have also given "GitHub Like a Boss" talks for:
 - Junior Dev (Hacktoberfest)
 - Python Users Meetup (Hacktoberfest)
 - Girl Geek Academy's Microsoft Mondays
+
+You can see all my talks on my website linked on my [GitHub profile](https://github.com/MishManners).
