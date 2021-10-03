@@ -56,7 +56,7 @@ Abstract is same as above.
 
 ### GitKon 2021
 
-![](https://github.com/mishmanners/GitHub-Like-A-Boss/blob/main/GitKon-Speaker-MichelleMannering-OG.jpg)
+![](https://github.com/mishmanners/GitHub-Like-A-Boss/blob/main/Images/GitKon-Speaker-MichelleMannering-OG.jpg)
 
 Incorporated some GitHub Like a Boss content in my [Git for the Ultimate Team work](https://gitkon.com/sessions/using-git-for-ultimate-teamwork/) given at GitKon 2021. You can also find a write up of this talk on [DEV](https://dev.to/mishmanners/how-to-make-a-good-git-commit-1ed7).
 
