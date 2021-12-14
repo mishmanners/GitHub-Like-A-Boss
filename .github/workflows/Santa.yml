@@ -1,0 +1,13 @@
+name: "Dear Santa"
+on:
+  issue_comment:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  dear-santa:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: imjohnbo/dear-santa-action@v1.0.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
