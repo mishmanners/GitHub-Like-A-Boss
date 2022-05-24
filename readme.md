@@ -1,5 +1,7 @@
 # GitHub Like a Boss #
 
+BIG CHANGES TO THIS REPO
+
 Open repo for all things GitHub demos.
 
 The first demo will be held during Microsoft Build 2020. This will be a fun place for you all to come and engage with me and try out some of the new features - which have all been enabled on this repo.
