@@ -1,4 +1,4 @@
-# GitHub Like a Boss #
+# GitHub Like a Boss - cause it's awesome.#
 
 Open repo for all things GitHub demos.
 
