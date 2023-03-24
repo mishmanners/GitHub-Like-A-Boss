@@ -22,11 +22,6 @@ function reverseSentence(sentence) {
     return newSentence;
 }
 
-// this was before we gave it any context
-function reverseSentence(sentence) {
-    return sentence.split(" ").reverse().join(" ");
-}
-
 // reverse a sentence
 // we haven't given it any context here!
 
@@ -38,4 +33,10 @@ function reverse(sentence) {
     // let's join the array of words into a new sentence
     let newSentence = reversedWords.join(" ");
     return newSentence;
+}
+
+// and this is what we had given Copilot ANY context
+
+function reverse(sentence) {
+    return sentence.split(' ').reverse().join(' ');
 }
