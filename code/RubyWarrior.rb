@@ -1,4 +1,4 @@
-# Ruby Warrior - sample code
+# Ruby Warrior - code for Ruby Warrior game, level 10
 
 class Player
   # written by Copilot
