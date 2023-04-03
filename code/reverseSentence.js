@@ -35,7 +35,7 @@ function reverse(sentence) {
     return newSentence;
 }
 
-// and this is what we had given Copilot ANY context
+// and this is what we had before we gave Copilot ANY context
 
 function reverse(sentence) {
     return sentence.split(' ').reverse().join(' ');

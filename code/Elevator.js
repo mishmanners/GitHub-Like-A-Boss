@@ -12,7 +12,7 @@
             elevator.goToFloor(2);
             elevator.goToFloor(3);
         });
-    },
+    }
     update : function(dt, elevators, floors) {
         // We normally don't need to do anything here
     }
