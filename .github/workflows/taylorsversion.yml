@@ -37,9 +37,6 @@ jobs:
               item = context.payload.discussion;
               type = 'discussion';
             }
-            if (item.number !== 1989) {
-                return;
-            }
 
             if (item.title.indexOf("Taylor's Version") !== -1) {
               return;
