@@ -40,3 +40,31 @@ function reverse(sentence) {
 function reverse(sentence) {
     return sentence.split(' ').reverse().join(' ');
 }
+
+// original code fixed by GitHub Copilot
+
+function reverseSentence(sentence) {
+    // lowercase the first letter of the sentence if it's not an "I"
+    if (sentence.charAt(0) !== "I") {
+        sentence = sentence.charAt(0).toLowerCase() + sentence.slice(1);
+    }
+
+    // split the sentence
+    const sentenceArray = sentence.split(" ");
+
+    // split the punctuation and handle null case
+    const punctuationArray = sentence.match(/[.,:;!?]/g) || [];
+    // Remove punctuation from the sentence
+    sentence = sentence.replace(/[.,:;!?]/g, "");
+
+    // reverse the sentence array and join it together
+    const reversedSentenceArray = sentenceArray.reverse();
+
+    // uppercase the first letter of the reversed sentence
+    reversedSentenceArray[0] = reversedSentenceArray[0].charAt(0).toUpperCase() + reversedSentenceArray[0].slice(1);
+
+    // join the reversed sentence and add punctuation again
+    const reversedSentence = reversedSentenceArray.join(" ") + punctuationArray.join("");
+
+    return reversedSentence;
+
